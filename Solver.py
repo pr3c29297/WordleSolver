@@ -12,12 +12,15 @@ while not Term:
     order = []
     PossibleAns=[]
     curr = input("capital char in correct order, mark unkown by '_': ")
+    curr = curr.upper()
     wo = input("incorrect order guess, input as string, mark other by '?': ")
+    wo = wo.upper()
     for i, v in enumerate(wo):
         if (v!='?'):
             order.append(v)
     worder = list(wo)
     ng = input("incorrect char guess, input as string, no separator: ")
+    ng=ng.upper()
     for i in ng:
         wrong.append(i)
     count = 0
