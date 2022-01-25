@@ -1,5 +1,4 @@
 from itertools import permutations, combinations
-print(list(permutations(['s','c','k','n','e'])))
 file = open("words.txt", 'r')
 ValidWord = []
 for line in file.readlines():
