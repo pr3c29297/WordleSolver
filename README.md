@@ -2,7 +2,7 @@ Preparation:
 1. Install Python https://www.python.org/downloads/
 2. Download or clone the repo
 3. Run the Solver by going to Command Line (Window) / Terminal (Mac), type: "cd " and the file path of the downloaded files
-4. Type: python3 Solver.py
+4. Type: "python3 Solver.py"
 
 Run:
 0. Guess a word on Wordle, get the initial result
