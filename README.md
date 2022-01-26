@@ -2,7 +2,7 @@ Preparation:
 1. Install Python https://www.python.org/downloads/
 2. Download or clone the repo
 3. Run the Solver by going to Command Line (Window) / Terminal (Mac), type: "cd " and the file path of the downloaded files
-4. Type: "python3 Solver.py"
+4. Type: "python Solver.py"
 
 Run:
 1. Guess a word on Wordle, get the initial result
@@ -11,6 +11,11 @@ Run:
 4. Enter all the incorrect character (gray)
 5. The Solver will return you the list of possible answer based on the guess you made. Repeat to step 1 until you win!
 
-Known limitation:
+Sample input:
+![](images/SampleInput1.PNG)
+![](images/SampleInput2.PNG)
+
+Known issue / To be updated:
 - Does not support the answer ends with plural form
 - Some of the suggested answer may not be a valid word in Wordle, since it is not common
+- Previous guess with incorrect order are not recorded (ie: yellow guess in previous turn)
