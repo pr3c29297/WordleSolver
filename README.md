@@ -12,8 +12,8 @@ Run:
 5. The Solver will return you the list of possible answer based on the guess you made. Repeat to step 1 until you win!
 
 Sample input:
-![](images/SampleInput1.PNG)
-![](images/SampleInput2.PNG)
+![SampleInput1](/images/SampleInput1.svg)
+![SampleInput2](/images/SampleInput2.svg)
 
 Known issue / To be updated:
 - Does not support the answer ends with plural form
